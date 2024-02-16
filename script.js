@@ -45,13 +45,18 @@ applyBtn.addEventListener('click', function(){
             // set rest total price 
             const total = document.getElementById('total');
             total.innerText = restTotal.toFixed(2);
+            document.getElementById('input-field').value = '';
+        }else if( coupon === '' ){
+            alert('Use Promo Code')
         }
         else{
-            alert('invalid coupon')
+            alert('Invalid Coupon')
+            document.getElementById('input-field').value = '';
         }
 
    }else {
-    alert('buy more');
+    alert('Must Purchase over $200 for discount!');
+    document.getElementById('input-field').value = '';
    }
      
 })
