@@ -8,4 +8,5 @@ https://chowdhuryfatema.github.io/summer-sale/
 -Html5 <br/>
 -TailwindCSS <br/>
 -DaisyUI  <br/>
+-Raw Javascript <br/>
 -Responsive
